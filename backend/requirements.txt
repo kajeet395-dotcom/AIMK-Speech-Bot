@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+groq
+supabase-py
+pydantic
+python-multipart
+edge-tts
+groq
