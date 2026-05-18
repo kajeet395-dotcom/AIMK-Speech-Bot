@@ -38,7 +38,7 @@ async function startInterview() {
     document.getElementById('setup-card').style.display = 'none';
     document.getElementById('interview-card').style.display = 'block';
     
-    const response = await fetch('https://aimk-speech-bot.onrender.com', {
+    const response = await fetch('https://aimk-speech-bot-1.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ student_email: email, job_description: jd })
