@@ -1,0 +1,10 @@
+# Exclude backend/Python files so Vercel doesn't auto-detect this as a Python project
+app.py
+Dockerfile
+requirements.txt
+backend/
+dashboard/
+API KEY GROQ.txt
+*.py
+*.txt
+!index.html

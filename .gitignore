@@ -1,0 +1,15 @@
+# Dependencies
+__pycache__/
+*.pyc
+.env
+
+# Secrets
+API KEY GROQ.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
